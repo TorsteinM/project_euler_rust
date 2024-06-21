@@ -1,6 +1,7 @@
 /// 
 /// Problem 45: Neste tall som er pentagonalt, trekanttall og heksagonalt
 ///
+/// Løst med inversfunksjoner
 
 pub fn solve() -> u64 {
     let mut n = 285;
@@ -8,13 +9,9 @@ pub fn solve() -> u64 {
         n += 1;
         let triangle = n*(n + 1)/2;
         
-        if ! is_pentagonal(triangle) {
-            continue;
+        if is_pentagonal(triangle) && is_hexagonal(triangle) {
+            return triangle;
         }
-        if ! is_hexagonal(triangle) {
-            continue;
-        }
-        return triangle;
     }
 }
 
