@@ -25,4 +25,8 @@ fn main() {
     println!("Problem 10: {}, Tid: {} ns", problems::problem10::solve(), start.elapsed().as_nanos());
     let start = Instant::now();
     println!("Problem 12: {}, Tid: {} ns", problems::problem12::solve(), start.elapsed().as_nanos());
+    // let start = Instant::now();
+    // println!("Problem 13: {}, Tid: {} ns", problems::problem13::solve(), start.elapsed().as_nanos());
+    let start = Instant::now();
+    println!("Problem 45: {}, Tid: {} ns", problems::problem45::solve(), start.elapsed().as_nanos());
 }
