@@ -1,3 +1,9 @@
+/// 
+/// Problem 9: Special Pythagorean triplet
+///
+/// Ikke noe spesielt her. Begynner å telle fra toppen med b,
+/// og holder a + b + c = 1000 ved å justere a og c for hver iterasjon.
+
 pub fn solve() -> u64 {
     for b in (1..500 as u64).rev() {
         let mut a:u64 = 1;

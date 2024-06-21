@@ -1,3 +1,10 @@
+/// 
+/// Problem 10: Summering av primtall
+///
+/// Ikke særlig interessant løsning. 
+/// Har prøvd sieve, men det blir ikke noe raskere løsning.
+/// Mulig sieve var raskere på gammel maskinvare
+
 use crate::utils::is_prime;
 
 pub fn solve() -> u64 {

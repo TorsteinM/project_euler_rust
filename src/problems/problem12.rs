@@ -1,3 +1,8 @@
+/// 
+/// Problem 9: Divisible Triangle Number
+/// 
+/// Kanskje mulig å finne noen mønstre til å generere istedenfor å teste alle tallene.
+
 use crate::utils::divisors;
 
 pub fn solve() -> u64 {
