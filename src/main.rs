@@ -30,5 +30,7 @@ fn main() {
     let start = Instant::now();
     println!("Problem 45: {}, Tid: {} ns", problems::problem45::solve(), start.elapsed().as_nanos());
     let start = Instant::now();
+    println!("Problem 47: {}, Tid: {} ns", problems::problem47::solve(), start.elapsed().as_nanos());
+    let start = Instant::now();
     println!("Problem 48: {}, Tid: {} ns", problems::problem48::solve(), start.elapsed().as_nanos());
 }
