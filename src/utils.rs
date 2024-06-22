@@ -48,3 +48,16 @@ pub fn divisors(n: u64) -> Vec<u64> {
     }
     divisors
 }
+
+pub fn is_pentagonal(n: u64) -> bool {
+    let x = (1.0 + (1.0 + 24.0 * n as f64).sqrt()) / 6.0;
+    x == x.floor()
+}
+pub fn is_triangle(n: u64) -> bool {
+    let x = (1.0 + (1.0 + 8.0 * n as f64).sqrt()) / 2.0;
+    x == x.floor()
+}
+pub fn is_hexagonal(n: u64) -> bool {
+    let x = (1.0 + (1.0 + 8.0 * n as f64).sqrt()) / 4.0;
+    x == x.floor()
+}

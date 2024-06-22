@@ -3,8 +3,6 @@ mod utils;
 use std::time::Instant;
 
 fn main() {
-
-
     let start = Instant::now();
     println!("Problem 1: {}, Tid: {} ns", problems::problem01::solve(), start.elapsed().as_nanos());
     let start = Instant::now();
@@ -27,6 +25,8 @@ fn main() {
     println!("Problem 12: {}, Tid: {} ns", problems::problem12::solve(), start.elapsed().as_nanos());
     let start = Instant::now();
     println!("Problem 13: {}, Tid: {} ns", problems::problem13::solve(), start.elapsed().as_nanos());
+    let start = Instant::now();
+    println!("Problem 21: {}, Tid: {} ns", problems::problem21::solve(), start.elapsed().as_nanos());
     let start = Instant::now();
     println!("Problem 45: {}, Tid: {} ns", problems::problem45::solve(), start.elapsed().as_nanos());
     let start = Instant::now();
