@@ -28,6 +28,8 @@ fn main() {
     let start = Instant::now();
     println!("Problem 21: {}, Tid: {} ns", problems::problem21::solve(), start.elapsed().as_nanos());
     let start = Instant::now();
+    println!("Problem 25: {}, Tid: {} ns", problems::problem25::solve(), start.elapsed().as_nanos());
+    let start = Instant::now();
     println!("Problem 45: {}, Tid: {} ns", problems::problem45::solve(), start.elapsed().as_nanos());
     let start = Instant::now();
     println!("Problem 47: {}, Tid: {} ns", problems::problem47::solve(), start.elapsed().as_nanos());
